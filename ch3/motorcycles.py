@@ -4,7 +4,7 @@
 motorcycles = ['honda', 'yamaha', 'suzuki']
 print(motorcycles)
 
-# append(): adding an item at the end of a list
+# append(): adding an item at the end of a list (method)
 motorcycles.append('ducati')
 print(motorcycles)
 
@@ -17,7 +17,7 @@ motorcycles.append('honda')
 motorcycles.append('yamaha')
 print(motorcycles)
 
-# deleting a specific item in a list
+# deleting a specific item in a list (keyword)
 del motorcycles[0]
 print(motorcycles)
 
@@ -25,7 +25,7 @@ print(motorcycles)
 motorcycles.insert(1, 'ducati')
 print(motorcycles)
 
-# pop(): removes the last item in a list
+# pop(): removes the last item in a list (method)
 # popped item can be used for other purposes
 last_owned = motorcycles.pop()
 print(motorcycles)
@@ -37,7 +37,7 @@ print("The first motorcycle I owned was a " + first_owned.title() + ".")
 motorcycles.insert(0, first_owned)
 motorcycles.append(last_owned)
 
-# remove(): removing an item by value
+# remove(): removing an item by value (method)
 # remove() only removes the first instance of an item in the list
 # a loop is required to remove all instances of the item
 print(motorcycles)
