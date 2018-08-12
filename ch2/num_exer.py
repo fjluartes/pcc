@@ -1,5 +1,6 @@
 #!/usr/bin/env python
-# numbers.py
+# num_exer.py
+# 11 Aug 2018 | fjgl
 # 2-8. Number Eight
 add = 5 + 3
 subtract = 18 - 10

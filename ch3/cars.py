@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # cars.py: organizing a list
+# 11 Aug 2018 | fjgl
 # sorted(): sort a list temporarily (function)
 cars = ['bmw', 'audi', 'toyota', 'subaru']
 print("Here's the original list:")

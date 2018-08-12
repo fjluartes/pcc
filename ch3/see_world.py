@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # see_world.py: Exercises 3-8, 3-10
+# 11 Aug 2018 | fjgl
 # 3-8 Seeing The World
 countries = ['Japan', 'US', 'UK', 'China', 'New Zealand']
 print(countries)
