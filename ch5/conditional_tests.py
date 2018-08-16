@@ -73,7 +73,7 @@ if (my_car == cars[4]):
 print("my_car != cars[4]")
 if (not my_car != cars[4]):
     print(my_car != cars[4])
-print("")
+print("\n")
 
 # Tests using lower()
 print("cars[0].lower() == 'audi'")
