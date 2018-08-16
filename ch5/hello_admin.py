@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # hello_admin.py: Exercises 5-8, 5-9
 # 16 Aug 2018 | fjgl
+# 5-8, 5-9 Hello Admin
 #users = ['admin', 'gon', 'killua', 'kurapika', 'leorio']
 users = []
 
