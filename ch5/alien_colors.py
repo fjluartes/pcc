@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # alien_colors.py: Exercises 5-3 to 5-5
-# 13 Aug 2018 | \251 fjgl
+# 13 Aug 2018 | fjgl
 # 5-3, 5-4, 5-5
 # alien_color = 'green'
 # alien_color = 'yellow'
