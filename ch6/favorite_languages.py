@@ -1,6 +1,7 @@
 #!/usr/bin/env python
-# favorite_languages.py: dictionary of similar objects
+# favorite_languages.py: Exercise 6-6
 # 18 Aug 2018 | fjgl
+# dictionary of similar objects
 favorite_languages = {
     'jen': 'python',
     'sarah': 'c',
@@ -46,6 +47,15 @@ favorite_languages = {
 #    print(language.title())
 
 # set(): similar to a list but items must be unique
-print("The following languages have been mentioned:")
-for language in set(favorite_languages.values()):
-    print(language.title())
+#print("The following languages have been mentioned:")
+#for language in set(favorite_languages.values()):
+#    print(language.title())
+
+# 6-6. Polling
+names = ['ross', 'rachel', 'phil', 'sarah', 'chandler']
+
+for name in names:
+    if name in favorite_languages.keys():
+        print(name.title() + ", thank you for taking our poll!")
+    else:
+        print(name.title() + ", please take our poll!")
