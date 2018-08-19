@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# cities.py: Exercise 6-11
+# cities.py: Exercise 6-11, 6-12
 # 19 Aug 2018 | fjgl
 # 6-11. Cities
 cities = {
@@ -18,6 +18,13 @@ cities = {
         'population': 38305000,
         'fact': 'Tokyo is the most populous metropolitan area in the world.'
         }
+    }
+
+# 6-12. Extensions
+cities['london'] = {
+    'country': 'uk',
+    'population': 14040163,
+    'fact': 'London is the world\'s largest financial centre.'
     }
 
 for city, city_info in cities.items():
