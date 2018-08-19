@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# fave_number.py: Exercise 6-2
+# fave_number.py: Exercise 6-2, 6-10
 # 18 Aug 2018 | fjgl
 # 6-2. Favorite Numbers
 fave_num = {
@@ -15,3 +15,5 @@ print("Green's favorite number is " + str(fave_num['green']) + ".")
 print("Blue's favorite number is " + str(fave_num['blue']) + ".")
 print("Yellow's favorite number is " + str(fave_num['yellow']) + ".")
 print("Pink's favorite number is " + str(fave_num['pink']) + ".")
+
+# 6-10. Favorite Numbers
