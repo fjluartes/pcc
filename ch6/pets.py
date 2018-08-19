@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# pets.py: Exercise 6-8
+# pets.py: Exercise 6-8, 6-12
 # 19 Aug 2018 | fjgl
 # 6-8. Pets
 pet_0 = {'name': 'bella', 'animal': 'cat', 'owner': 'maggie'}
@@ -9,6 +9,10 @@ pet_3 = {'name': 'coco', 'animal': 'bird',  'owner': 'missy'}
 pet_4 = {'name': 'buddy', 'animal': 'dog', 'owner': 'oliver'}
 
 pets = [pet_0, pet_1, pet_2, pet_3, pet_4]
+
+# 6-12. Extensions
+new_pet = {'name': 'max', 'animal': 'bird', 'owner': 'barry'}
+pets.append(new_pet)
 
 for pet in pets:
     print(pet['name'].title() + " is the name of " +
