@@ -8,6 +8,7 @@ person = {
     'age': 23,
     'city': 'muntinlupa'
     }
+
 print("Name: " + person['first_name'].title() + " " +
       person['last_name'].title() +
       "\nAge: " + str(person['age']) +
