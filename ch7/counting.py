@@ -7,3 +7,10 @@ while current_number < 10:
     if current_number % 2 == 0:
         continue
     print(current_number)
+print("")
+    
+# infinite loop if line 16 is removed
+x = 1
+while x <= 5:
+    print(x)
+    x += 1
