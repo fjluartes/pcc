@@ -29,7 +29,7 @@ cities['london'] = {
 
 for city, city_info in cities.items():
     print("City: " + city.title())
-    if city_info['country'] == 'usa':
+    if city_info['country'] == 'usa' or city_info['country'] == 'uk':
         print("\tCountry: " + city_info['country'].upper())
     else:
         print("\tCountry: " + city_info['country'].title())
