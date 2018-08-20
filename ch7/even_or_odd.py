@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # even_or_odd.py: modulo operator
 # 20 Aug 2018 | fjgl
+# %: modulo operator - divides first to second number then returns the remainder
 number = input("Enter a number, and I'll tell you if it's even or odd: ")
 number = int(number)
 
