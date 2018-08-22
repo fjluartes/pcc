@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# pets.py: positional arguments
+# pets.py: parameters and arguments
 # 22 Aug 2018 | fjgl
 def describe_pet(pet_name, animal_type='dog'):
     """Display information about a pet."""
