@@ -6,7 +6,7 @@ def describe_pet(pet_name, animal_type='dog'):
     print("\nI have a " + animal_type + ".")
     print("My " + animal_type + "'s name is " + pet_name.title() + ".")
 
-# Order of arguments matter if there are no default values or keyword arguments
+# positional arguments (order of arguments matter)
 #describe_pet('hamster', 'harry')
 #describe_pet('dog', 'willie')
 
