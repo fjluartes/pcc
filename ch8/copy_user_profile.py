@@ -12,5 +12,6 @@ def build_profile(first, last, **user_info):
 
 user_profile = build_profile('fred', 'luartes',
                              location='philippines',
-                             field='computer science')
+                             field='computer science',
+                             hobby='pc games')
 print(user_profile)
