@@ -10,7 +10,4 @@ def make_car(manuf, model, **car_info):
         car[key] = value
     return car
 
-car1 = make_car('subaru', 'outback', color='blue', tow_package=True)
-print(car1)
-car2 = make_car('toyota', 'prius', color='white', tow_package=True)
-print(car2)
+
