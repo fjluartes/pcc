@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# users.py: Exercise 9-3
+# users.py: Exercise 9-3, 9-5
 # 25 Aug 2018 | fjgl
 class User():
     """Simulate a User with different information in its profile."""
