@@ -9,6 +9,7 @@ class User():
         self.last_name = last_name
         self.full_name = first_name + ' ' + last_name
         self.user_info = user_info
+        self.login_attempts = 0
 
     def describe_user(self):
         """Display a summary of user's information."""
@@ -21,6 +22,15 @@ class User():
         """Display a greeting to the user."""
         print("\nHello, " + self.full_name.title() + "!")
 
+    def increment_login_attempts(self):
+        """Increment the number of login attempts."""
+        self.login_attempts += 1
+
+    def reset_login_attempts(self):
+        """Reset the number of login attempts to 0."""
+        self.login_attempts = 0
+
+# 9-3. Users
 user1 = User('albert', 'einstein',
              location='princeton',
              field='physics')
@@ -32,3 +42,13 @@ user2 = User('alan', 'turing',
              field='computer science')
 user2.describe_user()
 user2.greet_user()
+
+# 9-5. Login Attempts
+user1.increment_login_attempts()
+print("Num of login attempts: " + str(user1.login_attempts))
+user1.increment_login_attempts()
+print("Num of login attempts: " + str(user1.login_attempts))
+user1.increment_login_attempts()
+print("Num of login attempts: " + str(user1.login_attempts))
+user1.reset_login_attempts()
+print("Num of login attempts: " + str(user1.login_attempts))
