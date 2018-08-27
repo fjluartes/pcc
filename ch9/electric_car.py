@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# electric_car.py: Inheritance
+# electric_car.py: Inheritance, Exercise 9-9
 # 27 Aug 2018 | fjgl
 class Car():
     """A simple attempt to repersent a car."""
@@ -52,6 +52,12 @@ class Battery():
         message = "This car can go approximately " + str(range)
         message += " miles on a full charge."
         print(message)
+
+    # 9-9. Battery Upgrade
+    def upgrade_battery(self):
+        """Upgrade battery to 85 kWh."""
+        if self.battery_size != 85:
+            self.battery_size = 85
         
 # Inheritance
 class ElectricCar(Car):
@@ -73,6 +79,9 @@ my_tesla = ElectricCar('tesla', 'model s', 2016)
 print(my_tesla.get_descriptive_name())
 my_tesla.battery.describe_battery()
 my_tesla.fill_gas_tank()
+my_tesla.battery.get_range()
+my_tesla.battery.upgrade_battery()
+my_tesla.battery.describe_battery()
 my_tesla.battery.get_range()
 
 #my_car = Car('subaru', 'outback', 2015)
