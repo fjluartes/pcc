@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# users.py: Exercise 9-3, 9-5
+# users.py: Exercise 9-3, 9-5, 9-7
 # 25 Aug 2018 | fjgl
 class User():
     """Simulate a User with different information in its profile."""
@@ -30,6 +30,23 @@ class User():
         """Reset the number of login attempts to 0."""
         self.login_attempts = 0
 
+class Admin(User):
+    """Simulates an administrator user."""
+    def __init__(self, first_name, last_name, **user_info):
+        """Initializes attributes from parent class."""
+        super().__init__(first_name, last_name, **user_info)
+        self.privileges = []
+
+    def add_privileges(self, *list_privileges):
+        """Add the list of admin privileges."""
+        self.privileges = list_privileges
+
+    def show_privileges(self):
+        """Display the list of admin privileges."""
+        print("Privileges available to " + self.full_name.title() + ":")
+        for item in self.privileges:
+            print(item.title())
+        
 # 9-3. Users
 user1 = User('albert', 'einstein',
              location='princeton',
@@ -44,11 +61,17 @@ user2.describe_user()
 user2.greet_user()
 
 # 9-5. Login Attempts
-user1.increment_login_attempts()
-print("Num of login attempts: " + str(user1.login_attempts))
-user1.increment_login_attempts()
-print("Num of login attempts: " + str(user1.login_attempts))
-user1.increment_login_attempts()
-print("Num of login attempts: " + str(user1.login_attempts))
-user1.reset_login_attempts()
-print("Num of login attempts: " + str(user1.login_attempts))
+#user1.increment_login_attempts()
+#print("Num of login attempts: " + str(user1.login_attempts))
+#user1.increment_login_attempts()
+#print("Num of login attempts: " + str(user1.login_attempts))
+#user1.increment_login_attempts()
+#print("Num of login attempts: " + str(user1.login_attempts))
+#user1.reset_login_attempts()
+#print("Num of login attempts: " + str(user1.login_attempts))
+
+# 9-7. Admin
+admin = Admin('admin', 'user')
+admin.describe_user()
+admin.add_privileges('add user', 'update user', 'delete user')
+admin.show_privileges()
