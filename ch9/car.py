@@ -1,7 +1,7 @@
 #!/usr/bin/env python
-# car.py: working with classes and instances, importing a single class
+# car.py: working with classes and instances, importing classes
 # 25 Aug 2018 | fjgl
-"""A class that can be used to represent a car."""
+"""A set of classes used to represent gas and electric cars."""
 class Car():
     """A simple attempt to repersent a car."""
     def __init__(self, make, model, year):
@@ -34,6 +34,8 @@ class Car():
         """Add the given amount to the odometer reading."""
         self.odometer_reading += miles
 
+
+# working with classes and instances
 #my_new_car = Car('audi', 'a4', 2016)
 #print(my_new_car.get_descriptive_name())
 #my_new_car.update_odometer(23)
