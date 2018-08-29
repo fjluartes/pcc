@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # restaurant.py: Exercise 9-1, 9-2, 9-4, 9-6
 # 25 Aug 2018 | fjgl
+"""A set of classes to represent kinds of restaurants."""
 class Restaurant():
     """A restaurant class with a description method and open method."""
     def __init__(self, restaurant_name, cuisine_type):

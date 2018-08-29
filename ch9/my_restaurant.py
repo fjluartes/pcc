@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# restaurant.py: Exercise 9-10
+# my_restaurant.py: Exercise 9-10
 # 29 Aug 2018 | fjgl
 from restaurant import Restaurant, IceCreamStand
 
