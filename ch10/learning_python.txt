@@ -1,0 +1,8 @@
+In Python you can create simple and complex programs.
+In Python you can store values in variables.
+In Python you can use int, float, and string as data types
+In Python you can use 'lists' for storing multiple data with the same type.
+In Python you can use 'if' for conditional statements.
+In Python you can use 'while' and 'for' loops for iteration.
+In Python you can create functions using 'def' keyword.
+In Python you can create classes using 'class' keyword.
