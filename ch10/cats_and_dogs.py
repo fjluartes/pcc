@@ -7,7 +7,8 @@ def read_files(filename):
         with open(filename) as file_obj:
             lines = file_obj.readlines()
     except FileNotFoundError:
-        print("File " + filename + " does not exist.")
+        #print("File " + filename + " does not exist.")
+        pass
     else:
         for line in lines:
             print(line.strip())
@@ -16,5 +17,3 @@ filenames = ['cats.txt', 'dogs.txt', 'fish.txt']
 for filename in filenames:
     read_files(filename)
     print("")
-#filename = 'cats.txt'
-#read_files(filename)
