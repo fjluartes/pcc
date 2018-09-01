@@ -1,5 +1,6 @@
 #!/usr/bin/env python
-# remember_me.py: saving and reading user-generated data, refactoring
+# remember_me.py: saving and reading user-generated data, 
+#   refactoring, Exercise 10-13
 # 1 Sep 2018 | fjgl
 import json
 
@@ -26,7 +27,13 @@ def greet_user():
     """Greet the user by name."""
     username = get_stored_username()
     if username:
-        print("Welcome back, " + username + "!")
+        correct_user = input("Are you " + username + "? (yes/no) ")
+        if correct_user.lower() == 'yes':
+            print("Welcome back, " + username + "!")
+
+        else:
+            username = get_new_username()
+            print("We'll remember you when you come back, " + username + "!")
     else:
         username = get_new_username()
         print("We'll remember you when you come back, " + username + "!")
