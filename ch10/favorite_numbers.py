@@ -4,7 +4,7 @@
 import json
 
 def get_stored_number():
-    """Display stored favorite number of user if available."""
+    """Display favorite number of user if available."""
     filename = 'favorite_numbers.json'
     try:
         with open(filename) as f_obj:
@@ -15,7 +15,7 @@ def get_stored_number():
         return fave_number
 
 def get_new_number():
-    """Get new favorite number from user."""
+    """Get favorite number of user."""
     filename = 'favorite_numbers.json'
     fave_number = input("What is your favorite number? ")
     with open(filename, 'w') as f_obj:
