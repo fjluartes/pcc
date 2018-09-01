@@ -13,6 +13,7 @@ def get_stored_username():
         return None
     else:
         return username
+
 def get_new_username():
     """Prompt for a new username."""
     username = input("What is your name? ")
