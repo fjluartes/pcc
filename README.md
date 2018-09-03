@@ -9,5 +9,5 @@ Practice programs from Python Crash Course by Eric Matthes
 - ch7 user input - done
 - ch8 functions - done
 - ch9 classes - done
-- ch10 files/except - 
+- ch10 files/except - done
 - ch11 testing - 
