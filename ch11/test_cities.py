@@ -11,4 +11,9 @@ class CitiesTestCase(unittest.TestCase):
         formatted_city = get_formatted_city('santiago', 'chile')
         self.assertEqual(formatted_city, 'Santiago, Chile')
 
+    def test_city_country_population(self):
+        """Do cities like 'Santiago, Chile - population 5000000' work?"""
+        formatted_city = get_formatted_city('santiago', 'chile', population=5000000)
+        self.assertEqual(formatted_city, 'Santiago, Chile - Population 5000000')
+
 unittest.main()

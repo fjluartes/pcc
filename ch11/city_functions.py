@@ -1,7 +1,10 @@
 #!/usr/bin/env python
-# city_functions.py: Exercise 11-1
+# city_functions.py: Exercise 11-1, 11-2
 # 4 Sep 2018 | fjgl
-def get_formatted_city(city, country):
+def get_formatted_city(city, country, population=''):
     """Neatly formatted city and country."""
-    formatted_city = city + ", " + country
+    if population:
+        formatted_city = city + ", " + country + " - population " + str(population)
+    else:
+        formatted_city = city + ", " + country
     return formatted_city.title()
