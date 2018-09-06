@@ -11,3 +11,4 @@ class Employee():
     def give_raise(self, raise_amount=5000):
         """Adds a raise amount to the annual salary."""
         self.salary += raise_amount
+        return self.salary
