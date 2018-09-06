@@ -15,14 +15,12 @@ class TestEmployee(unittest.TestCase):
 
     def test_give_default_raise(self):
         """Test default raise for employee salary."""
-        salary_raised = self.salary + 5000
         new_salary = self.employee.give_raise()
-        self.assertEqual(salary_raised, new_salary)
+        self.assertEqual(self.salary + 5000, new_salary)
 
     def test_give_custom_raise(self):
         """Test custom raise for employee salary."""
-        salary_raised = self.salary + 10000
         new_salary = self.employee.give_raise(10000)
-        self.assertEqual(salary_raised, new_salary)
+        self.assertEqual(self.salary + 10000, new_salary)
 
 unittest.main()
