@@ -21,8 +21,8 @@ while True:
                          employee.full_name.title() +
                          " a raise? (yes/no) ")
     if raise_choice.lower() == 'yes':
-        d = input("Do you want to give the default raise or not?
-                   (yes/no) ")
+        d = input("Do you want to give the default raise or not? " +
+                  "(yes/no) ")
         if d.lower() == 'yes':
             new_salary = employee.give_raise()
             print("New Salary: " + str(new_salary))
