@@ -17,10 +17,12 @@ while True:
     employee = Employee(first, last, int(salary))
     print("\nEmployee Name: " + employee.full_name.title())
     print("Salary: " + str(employee.salary))
-    raise_choice = input("Do you want to give " + employee.full_name.title() +
-                      " a raise? (yes/no) ")
+    raise_choice = input("Do you want to give " +
+                         employee.full_name.title() +
+                         " a raise? (yes/no) ")
     if raise_choice.lower() == 'yes':
-        d = input("Do you want to give the default raise or not? (yes/no) ")
+        d = input("Do you want to give the default raise or not?
+                   (yes/no) ")
         if d.lower() == 'yes':
             new_salary = employee.give_raise()
             print("New Salary: " + str(new_salary))
