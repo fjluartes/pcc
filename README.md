@@ -1,5 +1,6 @@
 # Python Crash Course
 Practice programs from Python Crash Course by Eric Matthes
+Part 1
 - ch1 start - done
 - ch2 var, types - done
 - ch3 intro lists - done
@@ -11,3 +12,9 @@ Practice programs from Python Crash Course by Eric Matthes
 - ch9 classes - done
 - ch10 files/except - done
 - ch11 testing - done
+
+Part 2
+Project 1: Alien Invasion
+- ch12 ship 
+- ch13 aliens 
+- ch14 scoring 
