@@ -17,4 +17,10 @@ Part 2
 Project 1: Alien Invasion
 - ch12 ship 
 - ch13 aliens 
-- ch14 scoring 
+- ch14 scoring
+
+Project 2: Data Visualization
+
+
+Project 3: Web Programming
+
